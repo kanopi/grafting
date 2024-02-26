@@ -1,0 +1,22 @@
+name: 'Grafting'
+description: 'Installs and configures modules for migrations.'
+type: 'Site'
+
+install:
+  - location_migration
+  - migrate_exclude_entities
+  - migrate_file_to_media
+  - migrate_html_to_paragraphs
+  - migrate_manifest
+  - migrate_plus
+  - migrate_process_markdown_to_html
+  - migrate_scanner
+  - migrate_skip_on_404
+  - migrate_source_ui
+  - migrate_tools
+  - migrate_upgrade
+  - migrate_url2link
+  - views_migration
+  - migration_tools
+  - wordpress_migrate
+
