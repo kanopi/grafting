@@ -3,8 +3,6 @@ description: 'Installs and configures modules for migrations.'
 type: 'Site'
 
 install:
-  - location_migration
-  - migrate_exclude_entities
   - migrate_file_to_media
   - migrate_html_to_paragraphs
   - migrate_manifest

@@ -1,32 +1,38 @@
 {
-  "name": "kanopi/grafting",
-  "description": "Installs and configures the migration supporting base modules.",
-  "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
-  "type": "drupal-recipe",
-  "license": "GPL-2.0-or-later",
-  "authors": [
-      {
-          "name": "Jason Savino",
-          "role": "Maintainer"
-      }
-  ],
-  "require": {
-      "drupal/admin_toolbar": "*",
-      "drupal/location_migration": "*",
-      "drupal/migrate_exclude_entities": "*",
-      "drupal/migrate_file_to_media": "*",
-      "drupal/migrate_html_to_paragraphs": "*",
-      "drupal/migrate_manifest": "*",
-      "drupal/migrate_plus": "*",
-      "drupal/migrate_process_markdown_to_html": "*",
-      "drupal/migrate_scanner": "*",
-      "drupal/migrate_skip_on_404": "*",
-      "drupal/migrate_source_ui": "*",
-      "drupal/migrate_tools": "*",
-      "drupal/migrate_upgrade": "*",
-      "drupal/migrate_url2link": "*",
-      "drupal/views_migration": "*",
-      "drupal/migration_tools": "*",
-      "drupal/wordpress_migrate": "*"
-  }
+    "name": "kanopi/grafting",
+    "description": "Installs and configures the migration supporting base modules.",
+    "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jason Savino",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "drupal/migrate_file_to_media": "^2.0",
+        "drupal/migrate_manifest": "^3.1",
+        "drupal/migrate_plus": "^6.0",
+        "drupal/migrate_process_markdown_to_html": "^1.1",
+        "drupal/migrate_scanner": "^1.1",
+        "drupal/migrate_skip_on_404": "^1.1",
+        "drupal/migrate_source_ui": "^1.0",
+        "drupal/migrate_tools": "^6.0",
+        "drupal/migrate_upgrade": "^4.0",
+        "drupal/migrate_url2link": "^1.0",
+        "drupal/views_migration": "^1.2",
+        "drupal/migration_tools": "^2.8",
+        "drupal/wordpress_migrate": "^3.0@alpha"
+    }
 }
