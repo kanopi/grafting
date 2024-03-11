@@ -4,7 +4,6 @@ type: 'Site'
 
 install:
   - migrate_file_to_media
-  - migrate_html_to_paragraphs
   - migrate_manifest
   - migrate_plus
   - migrate_process_markdown_to_html
